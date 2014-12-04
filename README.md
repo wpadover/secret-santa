@@ -45,5 +45,5 @@ Jane Doe|John Doe|janedoe@gmail.com|456 Second Street, New York, NY 10028
 
 ###TODO
 
-+Make the e-mail message customizable
-+Improve robustness of name parsing
++ Make the e-mail message customizable
++ Improve robustness of name parsing
