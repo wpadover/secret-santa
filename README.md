@@ -5,7 +5,7 @@ Secret Santa Emailer
 
 ###Description
 
-Takes in a list of participants and sends an email to them with their secret santa assignments. Each person will get one person to give a gift to, and will be the recipient for one more person.
+Takes in a list of participants and sends an email to them with their secret santa assignments. Each person will get one person to give a gift to and will be the recipient for one more person.
 
 ###Usage
 
@@ -28,3 +28,22 @@ optional arguments:
   -t, --test_mode       Sends email to yourself
 
 ```
+
+###Recipients File
+
+Of the format:
+```
+Name|Name of Restrictions|Email|Address
+```
+with each person separated by a new line.
+
+Ex:
+```
+John Doe|Jane Doe|johndoe@gmail.com|123 First Street, New York, NY 10028
+Jane Doe|John Doe|janedoe@gmail.com|456 Second Street, New York, NY 10028
+```
+
+###TODO
+
++Make the e-mail message customizable
++Improve robustness of name parsing
