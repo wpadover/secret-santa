@@ -40,7 +40,8 @@ with each person separated by a new line.
 Ex:
 ```
 John Doe|Jane Doe|johndoe@gmail.com|123 First Street, New York, NY 10028
-Jane Doe|John Doe|janedoe@gmail.com|456 Second Street, New York, NY 10028
+Jane Doe|John Doe, Grumpy Jim|janedoe@gmail.com|456 Second Street, New York, NY 10028
+Grumpy Jim||grumpyjim@gmail.com|789 Second Street, New York, NY 10028
 ```
 
 ###TODO
